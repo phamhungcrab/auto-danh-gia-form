@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto Đánh Giá</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div class="logo">★</div>
+      <div>
+        <h1>Auto Đánh Giá</h1>
+        <p>Chọn nhanh theo text 0 / 1 / 2 / 3 / 4</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <label class="label">Mức muốn chọn</label>
+      <div class="rating-grid" id="ratingGrid">
+        <button class="rate-btn" data-level="0">0</button>
+        <button class="rate-btn" data-level="1">1</button>
+        <button class="rate-btn" data-level="2">2</button>
+        <button class="rate-btn" data-level="3">3</button>
+        <button class="rate-btn active" data-level="4">4</button>
+      </div>
+
+      <button class="primary" id="selectBtn">⚡ Chọn mức 4 trên trang</button>
+      <div class="actions">
+        <button id="panelBtn">📋 Hiện bảng nổi</button>
+        <button id="testBtn">🔍 Test tìm dòng</button>
+        <button id="clearBtn">🧹 Xóa tô màu</button>
+      </div>
+    </section>
+
+    <section class="status" id="statusBox">
+      Mở trang form cần đánh giá, chọn mức rồi bấm “Chọn”.
+    </section>
+
+    <section class="hint">
+      <b>Mẹo:</b> Nếu form dài, sau khi chạy xong hãy kéo xuống cuối trang rồi bấm chọn lại. Tool hoạt động theo text như “4: Rất hài lòng” hoặc “4. Rất hài lòng”.
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>

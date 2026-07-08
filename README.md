@@ -50,7 +50,7 @@ bạn có thể chọn nhanh một mức cho toàn bộ các câu hỏi đang hi
 
 ### Video demo
 
-[![Xem video hướng dẫn](docs/images/video-thumbnail.png)](docs/videos/demo.mkv)
+[![Xem video hướng dẫn](docs/images/video-thumbnail.png)](docs/videos/demo.mp4)
 
 <p align="center">
   <b>Click để xem video hướng dẫn.</b>

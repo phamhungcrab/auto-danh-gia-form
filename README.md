@@ -47,18 +47,7 @@ auto-rating-extension
 
 **Đây mới là thư mục cần nạp vào trình duyệt.**
 
-Cấu trúc đúng sẽ giống như sau:
-
-```text
-auto-danh-gia-form-main
-└── auto-rating-extension
-    ├── manifest.json
-    ├── popup.html
-    ├── popup.css
-    └── popup.js
-```
-
-> **Quan trọng:** Không chọn thư mục `auto-danh-gia-form-main`. Phải chọn đúng thư mục `auto-rating-extension` — thư mục có file `manifest.json` bên trong.
+> **Quan trọng:** Không chọn thư mục `auto-danh-gia-form-main`. Phải mở vào đúng thư mục `auto-rating-extension`, rồi chọn chính thư mục đó.
 
 ### Bước 3: Mở trang quản lý tiện ích
 
@@ -87,10 +76,12 @@ Nút này thường nằm ở góc trên bên phải.
 ### Bước 5: Nạp đúng thư mục extension
 
 1. Bấm **Load unpacked** / **Tải tiện ích đã giải nén**.
-2. Trong cửa sổ chọn thư mục, mở thư mục `auto-danh-gia-form-main`.
-3. Bấm vào thư mục `auto-rating-extension` để mở hẳn thư mục đó.
-4. Kiểm tra bên trong có file `manifest.json`.
-5. Bấm **Select Folder** / **Chọn thư mục**.
+2. Mở thư mục `auto-danh-gia-form-main`.
+3. Bấm đúp vào thư mục `auto-rating-extension` để đi vào bên trong.
+4. Khi thanh đường dẫn phía trên kết thúc bằng `auto-rating-extension` và trong cửa sổ chỉ thấy thư mục `icons`, hãy giữ nguyên tại đó.
+5. Bấm **Select Folder** / **Chọn thư mục** ở góc dưới bên phải.
+
+> Cửa sổ chọn thư mục của Windows thường chỉ hiển thị các thư mục con, nên bạn sẽ không thấy các file như `manifest.json`. Đây là bình thường. **Không mở thư mục `icons`; chỉ cần đang đứng trong `auto-rating-extension` rồi bấm Select Folder.**
 
 Nếu làm đúng, tiện ích **Auto Đánh Giá Form** sẽ xuất hiện trong danh sách extension.
 
